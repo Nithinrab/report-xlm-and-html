@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="16" skipped="0" tests="16" time="0.190" timestamp="2022-03-29T17:01:16.258508" hostname="DESKTOP-45SMTEL"><testcase classname="test_case" name="test_div5_1[5-True]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby5'">num = 5, output = True
+
+    @pytest.mark.parametrize("num,output",[(5,True),(2,False),(10,True),(7,False)])
+    def test_div5_1(num, output):
+        # x=10
+&gt;       r=divisibility.divisibleby5(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby5'
+
+test_case.py:7: AttributeError</failure></testcase><testcase classname="test_case" name="test_div5_1[2-False]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby5'">num = 2, output = False
+
+    @pytest.mark.parametrize("num,output",[(5,True),(2,False),(10,True),(7,False)])
+    def test_div5_1(num, output):
+        # x=10
+&gt;       r=divisibility.divisibleby5(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby5'
+
+test_case.py:7: AttributeError</failure></testcase><testcase classname="test_case" name="test_div5_1[10-True]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby5'">num = 10, output = True
+
+    @pytest.mark.parametrize("num,output",[(5,True),(2,False),(10,True),(7,False)])
+    def test_div5_1(num, output):
+        # x=10
+&gt;       r=divisibility.divisibleby5(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby5'
+
+test_case.py:7: AttributeError</failure></testcase><testcase classname="test_case" name="test_div5_1[7-False]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby5'">num = 7, output = False
+
+    @pytest.mark.parametrize("num,output",[(5,True),(2,False),(10,True),(7,False)])
+    def test_div5_1(num, output):
+        # x=10
+&gt;       r=divisibility.divisibleby5(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby5'
+
+test_case.py:7: AttributeError</failure></testcase><testcase classname="test_case" name="test_div7_1[7-True]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby7'">num = 7, output = True
+
+    @pytest.mark.parametrize("num,output",[(7,True),(2,False),(35,True),(5,False)])
+    def test_div7_1(num, output):
+        # x=14
+&gt;       r=divisibility.divisibleby7(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby7'
+
+test_case.py:13: AttributeError</failure></testcase><testcase classname="test_case" name="test_div7_1[2-False]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby7'">num = 2, output = False
+
+    @pytest.mark.parametrize("num,output",[(7,True),(2,False),(35,True),(5,False)])
+    def test_div7_1(num, output):
+        # x=14
+&gt;       r=divisibility.divisibleby7(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby7'
+
+test_case.py:13: AttributeError</failure></testcase><testcase classname="test_case" name="test_div7_1[35-True]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby7'">num = 35, output = True
+
+    @pytest.mark.parametrize("num,output",[(7,True),(2,False),(35,True),(5,False)])
+    def test_div7_1(num, output):
+        # x=14
+&gt;       r=divisibility.divisibleby7(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby7'
+
+test_case.py:13: AttributeError</failure></testcase><testcase classname="test_case" name="test_div7_1[5-False]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby7'">num = 5, output = False
+
+    @pytest.mark.parametrize("num,output",[(7,True),(2,False),(35,True),(5,False)])
+    def test_div7_1(num, output):
+        # x=14
+&gt;       r=divisibility.divisibleby7(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby7'
+
+test_case.py:13: AttributeError</failure></testcase><testcase classname="test_case" name="test_div9_1[18-True]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby9'">num = 18, output = True
+
+    @pytest.mark.parametrize("num,output",[(18,True),(2,False),(9,True),(7,False)])
+    def test_div9_1(num, output):
+        # x=27
+&gt;       r=divisibility.divisibleby9(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby9'
+
+test_case.py:19: AttributeError</failure></testcase><testcase classname="test_case" name="test_div9_1[2-False]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby9'">num = 2, output = False
+
+    @pytest.mark.parametrize("num,output",[(18,True),(2,False),(9,True),(7,False)])
+    def test_div9_1(num, output):
+        # x=27
+&gt;       r=divisibility.divisibleby9(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby9'
+
+test_case.py:19: AttributeError</failure></testcase><testcase classname="test_case" name="test_div9_1[9-True]" time="0.002"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby9'">num = 9, output = True
+
+    @pytest.mark.parametrize("num,output",[(18,True),(2,False),(9,True),(7,False)])
+    def test_div9_1(num, output):
+        # x=27
+&gt;       r=divisibility.divisibleby9(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby9'
+
+test_case.py:19: AttributeError</failure></testcase><testcase classname="test_case" name="test_div9_1[7-False]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby9'">num = 7, output = False
+
+    @pytest.mark.parametrize("num,output",[(18,True),(2,False),(9,True),(7,False)])
+    def test_div9_1(num, output):
+        # x=27
+&gt;       r=divisibility.divisibleby9(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby9'
+
+test_case.py:19: AttributeError</failure></testcase><testcase classname="test_case" name="test_div11_1[22-True]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby11'">num = 22, output = True
+
+    @pytest.mark.parametrize("num,output",[(22,True),(2,False),(99,True),(7,False)])
+    def test_div11_1(num, output):
+        # x=55
+&gt;       r=divisibility.divisibleby11(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby11'
+
+test_case.py:25: AttributeError</failure></testcase><testcase classname="test_case" name="test_div11_1[2-False]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby11'">num = 2, output = False
+
+    @pytest.mark.parametrize("num,output",[(22,True),(2,False),(99,True),(7,False)])
+    def test_div11_1(num, output):
+        # x=55
+&gt;       r=divisibility.divisibleby11(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby11'
+
+test_case.py:25: AttributeError</failure></testcase><testcase classname="test_case" name="test_div11_1[99-True]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby11'">num = 99, output = True
+
+    @pytest.mark.parametrize("num,output",[(22,True),(2,False),(99,True),(7,False)])
+    def test_div11_1(num, output):
+        # x=55
+&gt;       r=divisibility.divisibleby11(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby11'
+
+test_case.py:25: AttributeError</failure></testcase><testcase classname="test_case" name="test_div11_1[7-False]" time="0.001"><failure message="AttributeError: module 'divisibility' has no attribute 'divisibleby11'">num = 7, output = False
+
+    @pytest.mark.parametrize("num,output",[(22,True),(2,False),(99,True),(7,False)])
+    def test_div11_1(num, output):
+        # x=55
+&gt;       r=divisibility.divisibleby11(num)
+E       AttributeError: module 'divisibility' has no attribute 'divisibleby11'
+
+test_case.py:25: AttributeError</failure></testcase></testsuite></testsuites>
